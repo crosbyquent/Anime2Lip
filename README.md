@@ -11,20 +11,22 @@ enhancing the localization of animated content, and improving virtual character 
 
 ## Installation
 
-Follow the steps below to set up Anime2Lip on your machine:
+Open a conda prompt to a directory where you would like to install the wav2lip web ui.
+```
+conda create -n anime2lip python=3.10
+conda activate anime2lip
+git clone https://github.com/natlamir/Wav2Lip-WebUI.git anime2lip
+cd anime2lip
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/Anime2Lip.git
-    cd Anime2Lip
-    ```
+Remember to get the model and weights from below. With those things done, you should be able to double click the **run.cmd** to launch the Web UI.
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+Make sure to download the pre-trained model and weights and place them in the appropriate directory:
+Pre-trained model (rename to s3fd.pth and place in `face_detection/detection/sfd` folder): 
 
-3. Download the pre-trained model weights (link to weights).
+https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth
 
 ## Usage
 
