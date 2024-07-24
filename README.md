@@ -1,4 +1,4 @@
-# Anime2Lip
+# **Anime2Lip**: Accurately Lip-syncing Animated Video In The Wild
 
 Anime2Lip is a fork of davidkundrats/Wav2Lip, an implementation of Wav2Lip, specifically trained on the [Anim400k dataset](https://github.com/davidmchan/Anim400K). This large-scale dataset consists of animated video clips in 
 both English and Japanese, enabling synchronized lip-syncing for animated characters.
