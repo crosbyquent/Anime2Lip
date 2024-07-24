@@ -1,10 +1,9 @@
 # **Anime2Lip: Accurately Lip-syncing Animated Video In The Wild**
 
-Anime2Lip is a fork of davidkundrats/Wav2Lip, an implementation of Wav2Lip, specifically trained on the [Anim400k dataset](https://github.com/davidmchan/Anim400K). This large-scale dataset consists of animated video clips in 
+Anime2Lip is a fork of davidkundrats/Wav2Lip, an implementation of Wav2Lip, specifically trained on the [Anim-400K dataset](https://github.com/davidmchan/Anim400K). This large-scale dataset consists of animated video clips in 
 both English and Japanese, enabling synchronized lip-syncing for animated characters.
 
-Canonical lip synchronization research has focused on generating accurate and expressive human talking-head video based on target audio. Little research has been done on the potential of canonical
-lip synchronization approaches on animated video. 
+Canonical lip synchronization research has focused on generating accurate and expressive human talking-head video based on target audio. Little research has been done on the potential of canonical lip synchronization approaches on animated video. 
 
 We hope that training Wav2Lip's generator and expert discriminator on animated video will be a preliminary step in this research direction. Potential industry uses include automatic dubbing for animated films and series, 
 enhancing the localization of animated content, and improving virtual character interactions in video games and virtual reality.
